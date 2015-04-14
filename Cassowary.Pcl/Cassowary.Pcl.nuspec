@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Cassowary.Net</id>
+    <id>$id$</id>
     <version>0.1.0</version>
     <title>Cassowary.Net</title>
     <authors>Greg J. Badros, Alan Borning, Jo Vermeulen, Martin Devans, Daniel Münch</authors>
@@ -15,6 +15,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\Cassowary.Pcl.dll" target="lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1"></file>
+    <file src="bin\$configuration$\$id$.dll" target="lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1"></file>
   </files>
 </package>
