@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Cassowary.Net</id>
+    <version>0.1.0</version>
+    <title>Cassowary.Net</title>
+    <authors>Greg J. Badros, Alan Borning, Jo Vermeulen, Martin Devans, Daniel Münch</authors>
+    <owners>Daniel Münch</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Swavi.Dto</description>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>cassowary linear constraints solver autolayout</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Cassowary.Pcl.dll" target="lib\portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1"></file>
+  </files>
+</package>
