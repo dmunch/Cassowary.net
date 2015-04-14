@@ -7,7 +7,7 @@
     <authors>Greg J. Badros, Alan Borning, Jo Vermeulen, Martin Devans, Daniel Münch</authors>
     <owners>Daniel Münch</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Swavi.Dto</description>
+    <description>Cassowary is an incremental constraint solving toolkit that efficiently solves systems of linear equalities and inequalities. Constraints may be either requirements or preferences.</description>
     <releaseNotes>Initial Release.</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>cassowary linear constraints solver autolayout</tags>
