@@ -245,9 +245,9 @@ namespace Cassowary
         /// </summary>
         public ClLinearExpression AddVariable(ClAbstractVariable v, double c, ClAbstractVariable subject, ClTableau solver)
         {
-            ClDouble coeff = _terms[v];
-
-            if (coeff != null)
+            ClDouble coeff = null;
+            
+            if (_terms.TryGetValue(v, out coeff))
             {
                 double newCoefficient = coeff.Value + c;
 
@@ -398,9 +398,9 @@ namespace Cassowary
         /// </summary>
         public double CoefficientFor(ClAbstractVariable var)
         {
-            ClDouble coeff = _terms[var];
-
-            if (coeff != null)
+            ClDouble coeff = null;
+            
+            if (_terms.TryGetValue(var, out coeff))
                 return coeff.Value;
             else
                 return 0.0;
